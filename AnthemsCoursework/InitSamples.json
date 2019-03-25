@@ -1,0 +1,50 @@
+[
+  {
+    "SampleID": "1",
+    "Title": "Aqualung",
+    "Artist": "Jethro Tull",
+    "SampleBlobURL": null
+  },
+  {
+    "SampleID": "2",
+    "Title": "Songs from the Wood",
+    "Artist": "Jethro Tull",
+    "SampleBlobURL": null
+  },
+  {
+    "SampleID": "3",
+    "Title": "Wish You Were Here",
+    "Artist": "Pink Floyd",
+    "SampleBlobURL": null
+  },
+  {
+    "SampleID": "4",
+    "Title": "Still Life",
+    "Artist": "Van der Graaf Generator",
+    "SampleBlobURL": null
+  },
+  {
+    "SampleID": "5",
+    "Title": "Musical Box",
+    "Artist": "Genesis",
+    "SampleBlobURL": null
+  },
+  {
+    "SampleID": "6",
+    "Title": "Supper's Ready",
+    "Artist": "Genesis",
+    "SampleBlobURL": null
+  },
+  {
+    "SampleID": "7",
+    "Title": "Starship Trooper",
+    "Artist": "Yes",
+    "SampleBlobURL": null
+  },
+  {
+    "SampleID": "8",
+    "Title": "Levitation",
+    "Artist": "Hawkwind",
+    "SampleBlobURL": null
+  }
+]

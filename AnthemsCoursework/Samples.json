@@ -1,0 +1,217 @@
+﻿{
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "AnthemsCoursework"
+  },
+  "host": "localhost:60349",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/api/Samples": {
+      "get": {
+        "tags": [
+          "Samples"
+        ],
+        "summary": "Get all samples",
+        "operationId": "Samples_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Sample"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Samples"
+        ],
+        "summary": "Create a new sample",
+        "operationId": "Samples_PostSample",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "sample",
+            "in": "body",
+            "description": "",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Sample"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Sample"
+            }
+          },
+          "201": {
+            "description": "Created"
+          }
+        }
+      }
+    },
+    "/api/Samples/{id}": {
+      "get": {
+        "tags": [
+          "Samples"
+        ],
+        "summary": "Get a sample",
+        "operationId": "Samples_GetSample",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Sample"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Samples"
+        ],
+        "summary": "Update a sample",
+        "operationId": "Samples_PutSample",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "sample",
+            "in": "body",
+            "description": "",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Sample"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "NoContent"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Samples"
+        ],
+        "summary": "delete a sample",
+        "operationId": "Samples_deleteSample",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Sample"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Sample": {
+      "type": "object",
+      "properties": {
+        "sampleID": {
+          "type": "string"
+        },
+        "Title": {
+          "type": "string"
+        },
+        "Artist": {
+          "type": "string"
+        },
+        "CreatedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Mp3Blob": {
+          "type": "string"
+        },
+        "SampleMp3Blob": {
+          "type": "string"
+        },
+        "SampleMp3URL": {
+          "type": "string"
+        },
+        "SampleDate": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

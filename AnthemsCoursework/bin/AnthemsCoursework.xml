@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AnthemsCoursework</name>
+    </assembly>
+    <members>
+        <member name="M:AnthemsCoursework.Controllers.SamplesController.Get">
+            <summary>
+            Get all samples
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AnthemsCoursework.Controllers.SamplesController.GetSample(System.String)">
+            <summary>
+            Get a sample
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AnthemsCoursework.Controllers.SamplesController.PostSample(AnthemsCoursework.Models.Sample)">
+            <summary>
+            Create a new sample
+            </summary>
+            <param name="sample"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AnthemsCoursework.Controllers.SamplesController.PutSample(System.String,AnthemsCoursework.Models.Sample)">
+            <summary>
+            Update a sample
+            </summary>
+            <param name="id"></param>
+            <param name="sample"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AnthemsCoursework.Controllers.SamplesController.deleteSample(System.String)">
+            <summary>
+            delete a sample
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="F:AnthemsCoursework._Default.Head1">
+            <summary>
+            Head1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:AnthemsCoursework._Default.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:AnthemsCoursework._Default.sm1">
+            <summary>
+            sm1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:AnthemsCoursework._Default.upload">
+            <summary>
+            upload control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:AnthemsCoursework._Default.submitButton">
+            <summary>
+            submitButton control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:AnthemsCoursework._Default.up1">
+            <summary>
+            up1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:AnthemsCoursework._Default.AnthemDisplayControl">
+            <summary>
+            AnthemDisplayControl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:AnthemsCoursework._Default.refresh">
+            <summary>
+            refresh control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "http://schemastore.org/schemas/json/webjobs-list.json",
+  "WebJobs": [
+    {
+      "filePath": "../AnthemsCoursework-WebJob/AnthemsCoursework-WebJob.csproj"
+    },
+    {
+      "filePath": "../Anthems-Webjob/Anthems-Webjob.csproj"
+    }
+  ]
+}
